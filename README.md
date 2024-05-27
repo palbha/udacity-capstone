@@ -63,7 +63,7 @@ We could see the Stacking Ensemble Model is performing the best & we could see t
 
 
 ## Hyperparameter Tuning
-*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
+
 I went ahead by Finetuning Randomforest regrssor for different parameters like     "--n_estimators"( Number of trees), "--max_depth" ( Maximum depth of trees) & "--min_samples_split"( Minimum samples to split)
 There are primary three reasons why I chose this model 
 1. In my expereince Randomforest regressor does perform well in regrssion data if it doesn't have a linear relationship
@@ -72,7 +72,7 @@ There are primary three reasons why I chose this model
    
 
 ### Results
-Automl Model r2 score is way better then the random forest regressor fine tuned . hence will go ahead & deploy AML Model
+Automl Model r2 score (0.97) is way better then the random forest regressor fine tuned (0.47) hence will go ahead & deploy AML Model
 
 ## Model Deployment
 Model is deployed from Python Code & SUccesfully tested using the python code
